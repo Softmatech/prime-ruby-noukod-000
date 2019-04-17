@@ -10,4 +10,5 @@ def prime?(number)
             prime = true
           end
     end
+    return prime
   end
