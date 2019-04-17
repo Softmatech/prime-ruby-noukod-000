@@ -1,6 +1,7 @@
 # Add  code here!
 
 def prime?(number)
+  if number > 1
   count = 2
   prime = true
     while count < number
@@ -11,3 +12,4 @@ def prime?(number)
     end
     return prime
   end
+end
