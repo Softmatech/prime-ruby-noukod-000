@@ -1,12 +1,13 @@
 # Add  code here!
 
 def prime?(number)
-  for r in 2..Math.sqrt(number).to_i
+  prime = true
+    for r in 2..Math.sqrt(number).to_i
       if (number % r == 0)
-        false
+        prime = false
         break
       end
     end
-    true
+    return prime
   end
 end
