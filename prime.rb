@@ -2,5 +2,5 @@
 def prime?()
   
 end
-  
+
 end
