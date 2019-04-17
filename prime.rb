@@ -6,6 +6,8 @@ def prime?(number)
       if (number % r == 0)
         prime = false
         break
+      else
+        prime = false
       end
     end
     return prime
