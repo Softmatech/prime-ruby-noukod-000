@@ -6,7 +6,7 @@ def prime?(number)
     prime = false
   end
   count = 2
-  
+
     while count < number
           if number % count == 0
             prime =  false
