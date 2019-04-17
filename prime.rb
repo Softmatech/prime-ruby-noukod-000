@@ -2,11 +2,12 @@
 
 def prime?(number)
   count = 2
+  prime = true;
     while count < number
           if number % count
-            return false
+            prime =  false
           else
-            return true
+            prime = true
           end
     end
   end
