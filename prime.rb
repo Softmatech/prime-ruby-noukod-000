@@ -8,6 +8,7 @@ def prime?(number)
         break
       else
         prime = true
+        break
       end
     end
     return prime
